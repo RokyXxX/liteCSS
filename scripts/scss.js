@@ -35,4 +35,4 @@ fs.writeFileSync('dist/css/lite.css.map', mapOfRegularCss);
 fs.writeFileSync('dist/css/lite.min.css', minifiedCss);
 fs.writeFileSync('dist/css/lite.min.css.map', mapOfMinifiedCss);
 
-console.log('[liteCSS]: Files Generated!');
+console.log('\n[liteCSS]: Files Generated!\n');
