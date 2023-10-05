@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "The best classless CSS framework.",
   "main": "src/index.ts",
+  "scripts": {
+    "compile-scss": "node scripts/scss.js",
+    "compile-rtlcss": "node scripts/rtl-css.js"
+  },
   "repository": "git+github.com/RokyXxX/litecss.git",
   "author": "RokyXxX",
   "license": "MIT",
@@ -17,6 +21,8 @@
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.22.20",
     "@rollup/plugin-babel": "^6.0.3",
+    "@types/node": "^20.8.2",
+    "@types/node-sass": "^4.11.5",
     "rollup": "^3.29.4"
   }
 }
