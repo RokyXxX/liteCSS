@@ -11,18 +11,16 @@
   "author": "RokyXxX",
   "license": "MIT",
   "private": false,
-  "dependencies": {
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-typescript": "^11.1.4",
+    "@types/node": "^20.8.2",
+    "@types/node-sass": "^4.11.5",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "rollup": "^3.29.4",
     "node-sass": "^9.0.0",
     "rtlcss": "^4.1.1",
     "typescript": "^5.2.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/preset-env": "^7.22.20",
-    "@rollup/plugin-babel": "^6.0.3",
-    "@types/node": "^20.8.2",
-    "@types/node-sass": "^4.11.5",
-    "rollup": "^3.29.4"
   }
 }
