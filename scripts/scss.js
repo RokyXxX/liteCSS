@@ -1,7 +1,7 @@
 const sass = require('node-sass');
 const fs = require('fs');
 
-const scssFilePath = '../src/scss/lite.scss';
+const scssFilePath = 'src/scss/lite.scss';
 const scssContent = fs.readFileSync(scssFilePath, 'utf-8');
 
 // css: reg
