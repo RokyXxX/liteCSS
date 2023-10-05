@@ -2,7 +2,7 @@ import typescript from "@rollup/plugin-typescript";
 import babel from "@rollup/plugin-babel";
 
 export default {
-    input: "src/ts/index.ts",
+    input: "src/types/index.ts",
     output: {
         file: "dist/lite.bundle.js",
         format: "iife",
