@@ -1,0 +1,22 @@
+{
+  "name": "liteCSS",
+  "version": "1.0.0",
+  "description": "The best classless CSS framework.",
+  "main": "src/index.ts",
+  "repository": "git+github.com/RokyXxX/litecss.git",
+  "author": "RokyXxX",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@rollup/plugin-typescript": "^11.1.4",
+    "node-sass": "^9.0.0",
+    "rtlcss": "^4.1.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup": "^3.29.4"
+  }
+}

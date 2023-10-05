@@ -1,0 +1,16 @@
+# GitIgnore - The best. version: idk
+
+
+# Project-related files/folders
+node_modules/
+yarn.lock
+
+# Editor Cache/Info files/folders
+.vscode/
+idea/
+
+# CLI installer files/folders
+yarn-error.log
+
+# OS-specific files/folders
+.DS_store
