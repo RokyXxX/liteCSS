@@ -30,9 +30,9 @@ const mapOfMinifiedCss = sass.renderSync({
   sourceMap: true,
 }).css.toString();
 
-fs.writeFileSync('../dist/css/lite.css', regularCss);
-fs.writeFileSync('../dist/css/lite.css.map', mapOfRegularCss);
-fs.writeFileSync('../dist/css/lite.min.css', minifiedCss);
-fs.writeFileSync('../dist/css/lite.min.css.map', mapOfMinifiedCss);
+fs.writeFileSync('dist/css/lite.css', regularCss);
+fs.writeFileSync('dist/css/lite.css.map', mapOfRegularCss);
+fs.writeFileSync('dist/css/lite.min.css', minifiedCss);
+fs.writeFileSync('dist/css/lite.min.css.map', mapOfMinifiedCss);
 
 console.log('[liteCSS]: Files Generated!');
